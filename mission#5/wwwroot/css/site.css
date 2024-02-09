@@ -1,0 +1,75 @@
+/* Ensure images are displayed side by side */
+.image-gallery img {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between images */
+}
+
+/* Style headings and paragraphs */
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Arial', sans-serif; /* Change font family */
+    color: #333; /* Change text color */
+    line-height: 1.5; /* Adjust line height for readability */
+    margin-bottom: 20px; /* Add space between paragraphs */
+}
+
+/* Center align the text within the header */
+.text-center {
+    text-align: center;
+}
+
+/* Style footer */
+footer {
+    text-align: center;
+    margin-top: 50px; /* Add space between content and footer */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+    .button:hover {
+        background-color: #0056b3;
+    }
+
+.calculator-container {
+    margin: 50px auto;
+    width: 60%;
+    text-align: center;
+}
+
+.input-group {
+    margin: 50px auto;
+    width: 60%;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+    .button:hover {
+        background-color: #0056b3;
+
+
+
+.total-container {
+    margin-top: 20px;
+}
+
+.back-home {
+    margin-top: 30px;
+}
+
+/* Additional styling can be added as needed */

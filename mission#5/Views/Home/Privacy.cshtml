@@ -1,0 +1,37 @@
+﻿<head>
+    <link href="~/css/site.css" rel="stylesheet" />
+   
+</head>
+@{
+    ViewData["Title"] = "Calculate what you need to find a hobby that you will love!!!";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="calculator-container">
+    <h2>How much would it cost you to find a hobby?</h2>
+
+    <div class="input-group">
+        <label for="hours">Number of Hours Needed:</label>
+        <input type="number" id="hours" min="1">
+    </div>
+
+    <div class="hourly-charge">
+        <p>Hourly Charge: $29</p>
+    </div>
+
+    <button id="calculateBtn" class="btn btn-primary">Calculate Total</button>
+
+    <div class="total-container">
+        <label for="total">Total Charge:</label>
+        <output id="total"></output>
+    </div>
+
+    <div class="back-home">
+        <a href="/" >Back Home</a>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/privacy.js"></script>
+    
+}
